@@ -1,0 +1,125 @@
+
+.loginform{
+  background-color: aquamarine; 
+  text-align: center;
+  padding: auto;
+  border: 1px solid #4fea0c;
+}
+.loginbody{
+  display:flex;
+  flex-direction: column;
+  padding:5% 10% 10% 10%;
+ 
+}
+.button{
+  width: max-content;
+  margin: auto;
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.card {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+  text-align: center;
+}
+.form-label {
+  font-weight: bold;
+}
+.btn-login {
+  width: 100%;
+}
+
+
+
+body {
+  background-color: #f8f9fa;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-left: 12%;
+}
+.login {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 5vh;
+  width: 100vh;
+}
+.loginhead {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.error {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
+}
+
+.header {
+  background-color: #007bff;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      margin-bottom: 10%;
+}
+.header h1 {
+  font-size: 36px;
+      margin-bottom: 10px;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.card-title {
+  font-size: 24px;
+}
+.card-text {
+  font-size: 16px;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.header p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.logout-btn {
+  float: right;
+  background-color: #dc3545;
+}
+
+.welcome-text {
+  text-align: center;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hright{
+  margin-right: 0;
+  padding-right: 0;
+}
+@media (max-width: 768px) {
+  .header .col-md-6 {
+    text-align: left;
+  }
+  .header .col-md-6 {
+    float: none;
+  }
+}
+#succmsg{
+  color:green
+}
